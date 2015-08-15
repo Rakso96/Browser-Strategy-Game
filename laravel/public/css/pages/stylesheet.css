@@ -1,0 +1,132 @@
+/*
+	CSS TILL ALLA STATISKA SIDOR (FRONT PAGE, ...)
+	Color scheme: http://paletton.com/palette.php?uid=10z0u0k9XcW6Koa8QiSfI9Vlu8x
+*/
+
+
+/*----------------------
+| account-bar-link-padding
+| används för att sätta en liten padding på länkar i mitt fall vid account barens länkar*/
+.ab-link-pad{
+	margin-left: 2%;
+}
+
+/*--------------------
+| Body css där jag lägger lite kod som kommer vara likadan över hela sidan och lägger en grund för vissa saker.
+*/
+body{
+	padding: 0;
+	margin: 0;
+	
+	font-family: 'Playfair Display SC', serif;
+	
+	background-image: url("/img/sitebg.jpg");
+	background-repeat: repeat;
+	background-position: top center;
+}
+
+/*--------------
+| Header css där jag lägger lite kod som kommer vara likadan över hela sidan och lägger en grund för vissa saker.*/
+header{
+	color: #FFF;
+}
+
+/*-------------------------
+| En wrapper till account baren som vi kallar container. 
+| Vår account bar kommer täcka hela sidan varan width 100% 
+| Den kommer ha en bestämd höjd på 35px */
+.account-bar_container{
+	width: 100%;
+	height: 35px;
+}
+
+/*-----------------------------
+| Account bar klassen lägger lite inställningar för hela account baren så som 
+| Bakgrunsbild och font storlek.
+*/
+.account-bar{
+	margin: auto;
+	height: 100%;
+	
+	font-weight: 700;
+	
+	background-color: #4f3b28;
+	background-image: url("/img/topbar.jpg");
+	background-repeat: repeat;
+	background-position: top center;
+}
+
+/*-----------------------------
+| Account bar inner berättar hur själva diven innuti ska se ut i vårt fall vill vi ha
+| en liten padding från toppen så inte text och länkar går i taket samt en liten mindre höjd
+| så allt containas i account baren.
+*/
+.account-bar-inner{
+	padding-top: 6px;
+	margin: 0 auto;
+	height: 27px;
+	width: 80%;
+}
+
+.account-bar-content{
+}
+
+/*------------------------------
+| Account bar company är div för texten där företags namnet kommer stå
+*/
+.ab-company{
+	float: left;
+}
+
+/*---------------------------
+| Account bar temp kommer vara en temporär klass till länkar i vår account bar.*/
+.ab-temp{
+	float: left;
+}
+
+/*--------------------------------
+| Account bar sign in är en div för länker som tar oss till sign in sidan.
+| TODO: Styla sign in knappen så den sticker ut igentimot de andra länkarna */
+.ab-signin{
+	float:left; 
+}
+
+/*----------------------------------
+| En wrapper till headern eller menyn. 
+| Vi bestämmer här widthen och att den ska centreras*/
+.header_container{
+	margin: auto;
+	width: 80%;
+}
+
+/*--------------------------------
+| Bakgruns inställningar för headern / menyn */
+.header_bg{
+	background-color: #96816D;
+}
+
+/*-----------------------------------
+| Vår unordered list som agerar main menu
+| Vi har här standard inställningar som hanterar hela menyn*/
+.main-menu{
+	margin: 0;
+	padding: 0;
+	padding-top: 5px;
+	list-style-type: none;
+}
+
+/*-----------------------------------
+| Våra list items i form av menu buttons
+| Vi ställer här in hur vi vill att alla knappar ska ha gemensamt tillexempel positionering*/
+.menu-btn{
+	float: left;
+	margin-right: 2%;
+	text-align: center;
+	display: inline;
+}
+
+/*---------------------------------
+| Bestämd höjd för vår nav / header / main menu*/
+nav{
+	height: 60px;
+}

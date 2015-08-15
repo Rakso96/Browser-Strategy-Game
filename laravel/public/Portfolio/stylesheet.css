@@ -1,0 +1,567 @@
+/* BODY CSS */
+body {
+	width: 100%;
+	height: 100%;
+	padding: 0;
+	margin: 0;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+	background-color: #000000;
+}
+
+/* BODY CSS SLUT*/
+
+
+/* HEADER CSS */
+
+header{ 
+	color: #FFFFFF;
+	background-color: #000000;
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+	text-align: center;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+}
+
+header h1{ /* Css till själva Huvud texten i headern */
+	padding: 0;
+	padding-top: 50px;
+	margin: 0;
+	font-family: 'Open Sans', sans-serif ;
+	font-size: 45px;
+	font-weight: 300;
+}
+
+header h3{ /* Css till själva undertexten i headern */
+	padding: 0;
+	margin: 0;
+	font-family: 'Open Sans', sans-serif ;
+	font-weight: 300;
+}
+
+ /* NAV CSS */
+nav{
+	margin-top: 50px;
+}
+
+nav ul{ /* Css till själva listan i helhet, tar bort cirklarna runt list items */
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+}
+
+nav ul li{ /* Css till själva list itemsarna */
+	display: inline;
+	margin: 1%;
+}
+
+nav ul li a{ /* Css till själva länkarna */
+	text-decoration: none;
+	font-family: 'Open Sans', sans-serif ;
+	font-weight: 300;
+	color: #FFFFFF;
+	font-size: 30px;
+}
+
+nav ul li a.btnKontakt-white {
+	color: #000000;
+	background-color: #FFFFFF;
+}
+
+/* NAV CSS SLUT */
+
+/* HEADER CSS SLUT */
+
+/* Grabber CSS Start */
+
+.Grabber{
+	padding: 0;
+	margin: 0;
+	height: 550px;
+	width: 100%;
+}
+
+#Grabber-Background{
+	height: 100%;
+	width: 100%;
+	background-image: url("img/grabber-bg-old.jpg");
+	background-size: cover;
+	position: relative;
+	background-repeat: no-repeat;
+	overflow: hidden;
+}
+
+.Grabber h1{
+	font-family: 'Open Sans', sans-serif ;
+	font-weight: 300;
+	font-style: italic;
+	color: #FFFFFF;
+	font-size: 45px;
+
+	margin: 0;
+	padding-left: 3%;
+	padding-top: 3%;
+}
+
+.Grabber p{
+	font-family: 'Open Sans', sans-serif ;
+	font-weight: 300;
+	color: #FFFFFF;
+
+	font-size: 28px;
+
+	margin: 0;
+	padding-left: 3%;
+}
+
+/* Grabber CSS SLUT */
+
+/* Index-About CSS Start */
+.Index-About{
+	padding: 0;
+	margin: 0;
+	height: 100%;
+	width: 100%;
+	position: relative;
+	background-color: #FFFFFF;
+}
+
+.face-img{
+	padding: 0;
+	margin: 0;
+	margin-right: 3%;
+	background-image: url("img/face-img.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 200px;
+	height: 200px;
+	float: left;
+}
+
+.Index-About p{
+	font-size: 18px;
+	font-style: italic;
+}
+
+.Index-About b{
+	font-style: normal;
+}
+
+.Index-About h1{
+	margin: 0;
+	padding: 0;
+	padding-top: 100px;
+	font-family: 'Open Sans', sans-serif ;
+	font-weight: 700;
+	font-size: 45px;
+	text-transform: uppercase;
+	text-align: center;
+	color: #000000;
+}
+
+.Index-About h3{
+	padding: 0;
+	margin: 0;
+	font-family: 'Open Sans', sans-serif ;
+	font-style: italic;
+	font-size: 25px;
+}
+
+.Index-Container{
+	padding-top: 100px;
+	width: 50%;
+	height: 100%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.Index-Container h1{
+	margin: 0;
+	padding: 0;
+	padding-bottom: 100px;
+	font-family: 'Open Sans', sans-serif ;
+	font-weight: 700;
+	font-size: 45px;
+	text-transform: uppercase;
+	text-align: center;
+	color: #000000;
+}
+
+
+
+/* EGENSKAPER SKILL BAR */
+
+.Index-About ul{
+	margin: 0;
+	padding: 0;
+	padding-top: 100px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 100px;
+	max-width: 600px;
+	font-family: 'Open Sans', sans-serif ;
+	font-style: italic;
+	font-size: 25px;
+	list-style-type: none;
+}
+
+.Index-About ul li{
+	padding: 10px;
+	height: 55px;
+	display: inline-block;
+}
+
+.skill-bg{
+	height: 25px;
+	width: 270px; /* ÄNDRA DENNA WIDTHEN TILL ETT MER BEKVÄMT NUMMER OCH ANVÄMD DET SOM HJÄLP FÖR ATT CENTRERA HELA EGENSKAPSDELEN */
+	background-color: #000000;
+}
+
+.skill-bar {
+	height: 21px;
+	margin-top: 2px;
+	margin-left: 1px;
+	position: relative;
+	float: left;
+	background-color: #FFFFFF;
+}
+
+/* Index-About CSS SLUT */
+
+
+
+/* Index-Portfolio CSS Start */
+.Index-Portfolio{
+	width: 100%;
+	padding-bottom: 100px;
+	background-image: url("img/grabber_bg_ny.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+
+}
+
+.Index-Portfolio h1{
+	margin: 0;
+	padding: 0;
+	padding-top: 100px;
+	padding-bottom: 50px;
+	font-weight: 700;
+	font-size: 45px;
+	text-transform: uppercase;
+	text-align: center;
+	color: #FFFFFF;
+}
+
+.Portfolio-Container{
+	margin: 0;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 50px;
+	padding-bottom: 20px;
+	padding-right: 10px;
+	max-width: 970px;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.5);
+}
+
+.Portfolio-Item{
+	margin-left: 2%;
+	margin-bottom: 30px;
+	width: 300px;
+	height: 300px;
+	display: inline-block;
+	position: relative;
+	
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	
+	text-align: center;	
+	color: #000000;
+	font-family: 'Open Sans', sans-serif ;
+	font-size: 25px;
+	font-weight: 400;
+	font-style: italic;
+	
+	overflow: hidden;
+}
+
+.Portfolio-Item h3{
+	background-color: #555;
+}
+
+.Portfolio-Item p{
+	font-size: 18px;
+	font-style: italic;
+	font-weight: 700;
+	width: 80%;
+	text-align: left;
+	margin-left: auto;
+	margin-right: auto;
+	color: #7F7E7E;
+}
+
+#Kontakt-Link{
+	color: #FFFFFF;
+	background-color: #000000;
+	font-size: 25px;
+	font-weight: 300;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-style: normal;
+	margin-top: 30px;
+	padding-left: 10px;
+	padding-right: 10px;
+	border: 1px solid #000000;
+	border-radius: 5px;
+}
+
+#Kontakt-Link:hover{
+	transition: 0.2s ease;
+	-webkit-transition: 0.2s ease;
+	-moz-transition: 0.2s ease;
+	-o-transition: 0.2s ease;
+	color: #000000;
+	background-color: #FFFFFF;
+}
+
+.Portfolio-Overlay{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	background-color: rgba(40, 39, 39, 0.53);
+	opacity: 0;
+}
+
+.Portfolio-Overlay img{
+	padding-top: 40%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#Portfolio-freelance{
+	background-color: #FFFFFF;
+}
+
+#insidemetal{
+	background-image: url("img/IMG_0950.png");
+}
+#insidemetalGrey{
+	background-image: url("img/guitar-insideMetal.jpg");
+}
+#easyPhotoPrev{
+	background-image: url("img/foolio.png");
+}
+#chatbuddyPrev{
+	background-image: url("img/chatbuddy.png");
+}
+/* Index-Portfolio CSS SLUT */
+
+/* Kontakt CSS start*/
+
+.Index-Kontakt{
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	width: 100%;
+	background-color: #e5eaee;
+	font-family: 'Open Sans', sans-serif ;
+}
+
+.Index-Kontakt h1{
+	margin: 0;
+	padding: 0;
+	padding-top: 100px;
+	padding-bottom: 50px;
+	font-weight: 700;
+	font-size: 45px;
+	text-transform: uppercase;
+	text-align: center;
+	color: #000000;
+}
+
+.Index-Form{
+	max-width: 600px;
+	margin-left: auto;
+	margin-right: auto;
+	font-style: italic;
+	font-size: 25px;
+	padding-bottom: 100px;
+}
+
+.Index-Form fieldset{
+	border: none;
+	margin-left: 7px;
+}
+
+.Index-Form label{
+	display: block;
+	float: left;
+	width: 48%;
+}
+
+.Index-Form input{
+	margin: 0;
+	padding: 0 5px 0 5px;
+	border: 1px solid #999;
+	height: 30px;
+	width: 90%;
+	font-size: 18px;
+	font-style: italic;
+	font-family: 'Open Sans', sans-serif ;
+}
+
+.Index-Form span{
+	display: block;
+}
+
+.Index-Form textarea{
+	width: 93%;
+	height: 10em;
+	border: 1px solid #999;
+	overflow: hidden;
+}
+
+#send{
+	float: left;
+	max-width: 100px; 
+	background-color: #000000;
+	color: #FFFFFF;
+	font-style: normal;
+	font-weight: 300;
+	text-transform: uppercase;
+}
+
+#send:hover{
+	transition: 0.2s ease;
+	-webkit-transition: 0.2s ease;
+	-moz-transition: 0.2s ease;
+	-o-transition: 0.2s ease;
+	color: #000000;
+	background-color: #cecece;
+}
+
+/* Kontakt CSS SLUT*/
+
+
+/* FOOTER CSS START */
+.Index-Footer{
+	width: 100%;
+	height: 100%;
+	background-color: #FFF;
+}
+
+.Index-Footer h1{
+	padding-top: 100px;
+	padding-bottom: 10px;
+	margin: 0;
+	font-size: 45px;
+	font-weight: 400;
+	font-style: italic;
+	text-align: center;
+}
+
+.Index-Footer h3{
+	margin: 0;
+	padding-top: 10px;
+	font-size: 25px;
+	font-weight: 300;
+	font-style: italic;
+	text-align: center;
+}
+
+.Footer-Networks{
+	padding-top: 50px;
+	padding-bottom: 100px;
+	max-width: 480px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.Footer-Networks img{
+	margin-right: 10px;
+}
+/* FOOTER CSS SLUT */
+
+/* MOBIL Anpassning CSS Start */
+@media (max-width: 1200px){ /* OM DEN ÄR 1200 PIXLAR BRED  */
+	.Grabber h1{
+		font-size: 38px;
+	}
+
+	.Grabber p{
+		font-size: 14px;
+	}
+}
+
+@media (max-width: 900px){ /* OM DEN ÄR 900 PIXLAR BRED  */
+	.Grabber h1{
+		font-size: 28px;
+	}
+
+	.Grabber p{
+		font-size: 12px;
+	}
+}
+
+@media (max-width: 994px){
+
+	.Portfolio-Container{
+		width: 320px;
+	}
+
+	.Portfolio-Item{
+		margin-left: 5%;
+		width: 60%;
+		min-width: 300px;
+	}
+
+	.Portfolio-Overlay img{
+		padding-top: 20%;
+	}
+}
+
+@media (max-width: 603px){
+	.Index-About ul{
+		width: 300px;
+	}
+
+}
+
+@media (max-width: 485px){
+	.Footer-Networks{
+		max-width: 190px;
+	}
+}
+
+@media (max-width: 480px) and (min-width: 320px){ /* OM DEN ÄR MELLAN 320 - 480  PIXLAR BRED  */
+	nav ul li a{
+		font-size: 24px;
+	}
+
+	.Grabber h1{
+		margin-left: auto;
+		margin-right: auto;
+		text-align: left;
+		font-size: 18px;
+	}
+
+	.Grabber p{
+		margin-top: 10px;
+		margin-left: auto;
+		margin-right: auto;
+		text-align: left;
+		font-size: 11px;
+	}
+
+	.Portfolio-Item{
+	}
+
+	.Portfolio-Overlay img{
+		padding-top: 40%;
+	}
+}
+/* MOBIL Anpassning CSS SLUT */
